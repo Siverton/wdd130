@@ -37,9 +37,10 @@ aside {
     text-align: center;
 }
 aside h2 {
-    position: relative;
-    top: 47px;
-    color: white;
+    position: absolute;
+    top:500px;
+    left: 100px;
+    color: yellow;
 }
 aside img{
     width: 200px;
