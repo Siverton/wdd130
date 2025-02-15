@@ -10,7 +10,10 @@
 
 nav {
     background-color: var(--header-color);
-    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
 }
 nav a {
     color: white;
@@ -19,6 +22,8 @@ nav a {
 }
 h1{
     color: var(--header-color);
+    border-bottom: 1px;
+    border-color: darkblue;
 }
 main img {
     width: 150px;
@@ -42,6 +47,7 @@ aside h2 {
     top:50px;
     left: 100px;
     color: yellow;
+    
 }
 aside img{
     width: 200px;
@@ -52,6 +58,7 @@ footer {
     margin-top: 12px;
     border-top: var(--border-color);
     text-align: center;
+
 }
 
 /* Class Selectors */
@@ -62,4 +69,8 @@ footer {
     padding: 1rem;
     background-color: white;
     color: darkblue;
+}
+header footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
